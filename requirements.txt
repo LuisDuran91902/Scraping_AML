@@ -1,0 +1,22 @@
+python-dotenv==0.19.2
+requests==2.27.1
+pandas==1.4.1
+uvicorn==0.17.1
+numpy==1.11.3
+tqdm==4.64.0
+bs4==4.11.1
+
+# Auth
+bcrypt==3.2.0
+python-multipart==0.0.5
+PyJWT==2.3.0
+
+# Libraries to read xlsx
+openpyxl==3.0.9
+xlrd==2.0.1
+
+# Testing libraries
+pytest==7.0.1
+pytest-cov==3.0.0
+pytest-mock==3.7.0
+requests-mock==1.9.3
