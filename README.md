@@ -3,9 +3,9 @@
 
 To start the api project run:
 
-'''sh
+```sh
 docker-compose up
-'''
+```
 
 To "go inside" the container:
 
