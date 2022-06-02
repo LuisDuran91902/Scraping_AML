@@ -2,7 +2,7 @@ FROM python:3.8-slim
 
 COPY requirements.txt ./requirements.txt
 RUN pip install -r requirements.txt
-WORKDIR /usr/local/Scraping_MLcars
+WORKDIR /usr/local/Scraping_AML/api
 EXPOSE 8000
 
 COPY . ./

@@ -16,7 +16,7 @@ def getPage(url):
     if(result.status_code != 200):
         raise Exception(f'Not found{result.status_code}')
     content = result.content
-    return BeautifulSoup(content, features = "html")
+    return BeautifulSoup(content,"html")
 
 ### Obtencion de primera tab
 def tab_info(url):
@@ -145,8 +145,8 @@ def next_pages(url,year,modelo):
 # 'ford','honda','toyota','mercedes-benz','kia','bmw','acura','alfa-romeo','audi','baic','bentley','marca-buick','cadillac','chrysler','dodge','faw','fiat','gmc','hummer',
 # 'hyundai','infiniti','isuzu','jac','jaguar','jeep','lamborghini','land-rover','lincoln','maserati',
 # 'mitsubishi','mini','mazda','peugeot','pontiac','porshe','ram','renault','seat','subaru','smart',
-# 'suzuki','tesla','toyota',
-marcas = ['volvo']
+# 'suzuki','tesla','toyota','volvo'
+marcas = ['tesla']
 
 
 i = 0

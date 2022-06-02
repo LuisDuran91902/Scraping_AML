@@ -2,9 +2,9 @@ python-dotenv==0.19.2
 requests==2.27.1
 pandas==1.4.1
 uvicorn==0.17.1
-numpy==1.11.3
-tqdm==4.64.0
-bs4==4.11.1
+numpy
+tqdm
+bs4
 
 # Auth
 bcrypt==3.2.0

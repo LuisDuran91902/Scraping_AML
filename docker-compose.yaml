@@ -1,11 +1,11 @@
-version: "2"
+version: "3.7"
 services:
   app:
     build: .
-    image: labcodevops/Scraping_MLcars:0.1
+    image: labcodevops/scraping_aml:0.0.1
     volumes:
-      - .:/usr/local/Scraping_MLcars
+      - .:/usr/local/Scraping_AML
     ports:
-      - 8765:8000
+      - 3000:8000
     environment:
-      - PYTHONPATH=/usr/local/Scraping_MLcars/api
+      - PYTHONPATH=/usr/local/Scraping_AML/api
